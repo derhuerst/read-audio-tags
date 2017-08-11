@@ -1,6 +1,6 @@
 # read-audio-tags
 
-**Read tags from all common formats.**
+**Read tags from all common formats.** Uses [ffprobe](http://ffmpeg.org/ffprobe.html).
 
 [![npm version](https://img.shields.io/npm/v/read-audio-tags.svg)](https://www.npmjs.com/package/read-audio-tags)
 [![build status](https://img.shields.io/travis/derhuerst/read-audio-tags.svg)](https://travis-ci.org/derhuerst/read-audio-tags)
@@ -33,7 +33,7 @@ readTags('/path/to/audio.m4a', (err, tags) => {
 readTags(file, [ffprobe], cb)
 ```
 
-You may pass in an `ffprobe` path to use a custom executable.
+You may pass in an `ffprobe` path to use a custom executable, e.g. from [`ffprobe-static`](https://github.com/joshwnj/ffprobe-static).
 
 
 ## Contributing

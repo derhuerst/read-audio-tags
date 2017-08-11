@@ -3,7 +3,7 @@
 const path = require('path')
 const test = require('tape')
 
-const readTags = require('.')
+const readTags = require('..')
 
 const src = path.join(__dirname, 'kevin-macleod-ghost-dance.slice.mp3')
 
