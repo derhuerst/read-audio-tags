@@ -18,8 +18,22 @@ npm install read-audio-tags
 ## Usage
 
 ```js
-todo
+const readTags = require('read-audio-tags')
+
+readTags('/path/to/audio.m4a', (err, tags) => {
+	if (err) console.error(err)
+	else console.log(tags)
+})
 ```
+
+
+## API
+
+```js
+readTags(file, [ffprobe], cb)
+```
+
+You may pass in an `ffprobe` path to use a custom executable.
 
 
 ## Contributing
