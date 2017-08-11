@@ -1,11 +1,12 @@
 sudo: false
+os:
+  - osx
 language: node_js
 node_js:
   - 'stable'
   - '8'
   - '7'
   - '6'
-addons:
-  apt:
-    packages:
-      - ffmpeg
+before_install:
+  - brew update
+  - brew install ffmpeg
