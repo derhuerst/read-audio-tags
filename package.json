@@ -1,0 +1,34 @@
+{
+	"name": "read-audio-tags",
+	"description": "Read tags from all common formats.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"tags",
+		"metadata",
+		"id3",
+		"m4a",
+		"flac",
+		"ffprobe"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/read-audio-tags",
+	"repository": "derhuerst/read-audio-tags",
+	"bugs": "https://github.com/derhuerst/read-audio-tags/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"tape": "^4.6.3",
+		"tap-min": "^1.2.1"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
