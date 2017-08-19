@@ -1,5 +1,7 @@
 # read-audio-tags
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/read-audio-tags.svg)](https://greenkeeper.io/)
+
 **Read tags from all common formats.** Uses [ffprobe](http://ffmpeg.org/ffprobe.html).
 
 [![npm version](https://img.shields.io/npm/v/read-audio-tags.svg)](https://www.npmjs.com/package/read-audio-tags)
