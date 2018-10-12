@@ -1,13 +1,12 @@
 # read-audio-tags
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/read-audio-tags.svg)](https://greenkeeper.io/)
-
 **Read tags from all common formats.** Uses [ffprobe](http://ffmpeg.org/ffprobe.html).
 
 [![npm version](https://img.shields.io/npm/v/read-audio-tags.svg)](https://www.npmjs.com/package/read-audio-tags)
 [![build status](https://img.shields.io/travis/derhuerst/read-audio-tags.svg)](https://travis-ci.org/derhuerst/read-audio-tags)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/read-audio-tags.svg)
 [![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
+[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
 
 
 ## Installing
