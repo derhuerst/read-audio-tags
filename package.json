@@ -23,7 +23,7 @@
 		"node": ">=6"
 	},
 	"dependencies": {
-		"shell-escape-tag": "^1.1.0"
+		"any-shell-escape": "^0.1.1"
 	},
 	"devDependencies": {
 		"tap-min": "^1.2.1",

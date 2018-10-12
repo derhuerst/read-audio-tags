@@ -1,6 +1,6 @@
 'use strict'
 
-const shell = require('shell-escape-tag').default
+const shell = require('any-shell-escape')
 const {exec} = require('child_process')
 
 const readTags = (file, ffprobe = 'ffprobe', cb) => {
@@ -9,7 +9,13 @@ const readTags = (file, ffprobe = 'ffprobe', cb) => {
 		ffprobe = 'ffprobe'
 	}
 
-	const cmd = shell `${ffprobe} -v error -print_format json -show_entries format ${file}`
+	const cmd = shell([
+		ffprobe,
+		'-v', 'error',
+		'-print_format', 'json',
+		'-show_entries', 'format',
+		file
+	])
 	exec(cmd, (err, stdout, stderr) => {
 		if (err) {
 			err.message = stderr.trim()
